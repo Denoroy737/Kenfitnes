@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* fonts */
+  --font-color: #232425;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-image: linear-gradient(334deg, #d1cada 9%, #cedade 88%);
+  /* background-repeat: repeat-y; */
+  height: 92vh;
+}
+.Body {
+  height: 92vh;
+  width: 95%;
+  margin: 30px auto;
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+  backdrop-filter: blur(4px);
+  border-radius: 29px;
+}
+.navbar {
+  display: flex;
+}
+#logo {
+  font-family: "Redressed", cursive;
+  font-size: 7vh;
+  margin-left: 20px;
+  position: relative;
+  color: var(--font-color);
+  margin-top: 10px;
+  top: 1vh;
+}
+.btn {
+  display: flex;
+  height: 6vh;
+  position: relative;
+  left: 31vw;
+  top: 2vh;
+  justify-content: flex-end;
+  align-content: stretch;
+  flex-wrap: nowrap;
+}
+button {
+  height: 6vh;
+  justify-content: end;
+  border-radius: 12px;
+  background: #454545;
+  font-family: "Overpass", sans-serif;
+  color: #eee7e7;
+  font-size: 2vh;
+  width: 11vw;
+  border: 2px solid #454545;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  height: 5vh;
+  width: 12vh;
+  display: flex;
+  font-size: 3vh;
+  color: var(--font-color);
+  position: relative;
+  font-family: "Overpass", sans-serif;
+  top: 8px;
+  justify-content: flex-start;
+  align-content: center;
+}
+.Headline h1 {
+  height: 10vh;
+  width: 28vw;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  color: var(--font-color);
+  font-family: "Redressed", cursive;
+  position: relative;
+  left: 5vw;
+  top: 7vh;
+  font-size: 4vw;
+}
+p {
+  display: flex;
+  position: relative;
+  left: 5vw;
+  font-family: "Redressed", cursive;
+  /* border: 2px solid red; */
+  top: 23vh;
+  font-size: 2vw;
+  width: 36vw;
+  color: var(--font-color);
+  height: 11vh;
+}
+img {
+  position: relative;
+  height: 85vh;
+  width: 34vw;
+  bottom: 10em;
+  left: 40em;
+  display: block;
+  border-radius: 70px;
+}
+.Training-Section {
+  height: 100vh;
+  background-image: linear-gradient(334deg, #d1cada 9%, #cedade 88%);
+}
+#heading {
+  color: var(--font-color);
+  border: 2px solid black;
+  border: 2px solid black;
+  font-family: "Redressed", cursive;
+  font-size: 8vh;
+  padding-left: 50px;
+  margin-top: 79px;
+}
+.side-images {
+  display: flex;
+  border: 2px solid black;
+  height: 100vh;
+}
+#bicycleing {
+  border-radius: 300em;
+  width: 471px;
+  height: 500px;
+  position: relative;
+  top: 3vh;
+  left: 55vw;
+}
+
+/* .services {
+}
+/* .main{
+  height: 50vh;
+  width: 90vw;
+  margin: 100px auto;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #df8cb861;
+  box-shadow: 0px 0px 20px 1px rgb(153 153 153);
+} */
+/* .card{
+  height: 60vh;
+  width: 25vw;
+  margin: 22px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fee2f8;
+  background-image: linear-gradient(315deg, #c8ace7ab 10%, #b0b1e5fa 74%);
+  box-shadow: 0px 0px 32px 0 rgb(153 153 153); 
+ } */
